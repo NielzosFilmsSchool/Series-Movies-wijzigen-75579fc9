@@ -28,7 +28,7 @@ try {
                 omschrijving = '".addslashes($_POST["desc"])."'
             WHERE
                 titel = '".$_GET["title"]."';"
-            );
+        );
         $stmt->execute();
         $title = $_POST["title"];
     }

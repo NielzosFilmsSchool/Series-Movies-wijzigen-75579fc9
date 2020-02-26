@@ -29,7 +29,7 @@ try {
                 description = '".addslashes($_POST["desc"])."'
             WHERE
                 title = '".$_GET["title"]."';"
-            );
+        );
         $stmt->execute();
         $title = $_POST["title"];
     }
